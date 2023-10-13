@@ -112,15 +112,22 @@ To delete a name, make a POST request to /deleteName with a JSON payload contain
 ## Usage
 
 
-Provide code
-examples or instructions on how to use your API.
+Provide code examples or instructions on how to use your API.
+To retrieve a greeting with a concatenated full name, make a GET request to /getName/{lname}/{fname}.
 
+To add a new name, make a POST request to /postName with a JSON payload containing fname and lname.
+
+To retrieve a list of names, make a GET request to /getName.
+
+To update an existing name, make a POST request to /updateName with a JSON payload containing id, fname, and lname.
+
+To delete a name, make a POST request to /deleteName with a JSON payload containing id.
 
  
 
 
 ## License
-
+No license
 
  
 
@@ -128,16 +135,14 @@ examples or instructions on how to use your API.
 ## Contributors
 
 
-List
-contributors or give credit to any external libraries or resources used.
-
+List contributors or give credit to any external libraries or resources used.
+Leah Gundran, Joana Marie Fabro, Manny Hortizuela
 
  
 
 
 ## Contact
 Information
+joanamarie.fabro@student.dmmmsu.edu.ph
 
-
-Include contact
-information for inquiries or support.
+Include contact information for inquiries or support.
